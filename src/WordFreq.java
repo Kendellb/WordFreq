@@ -47,6 +47,7 @@ public class WordFreq {
         while ((line = br.readLine()) != null) {
             String[] words = line.split(" ");
             overAllCount = overAllCount + words.length;
+            //Test
             wf.count_freq(words);
             //System.out.println(Arrays.toString(words));
             //split into lines
